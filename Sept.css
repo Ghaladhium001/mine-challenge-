@@ -1,0 +1,443 @@
+
+   *{
+      border-box: box-sizing;
+      font-family: courier;
+    }
+    body{
+      background: #1F0B4F;
+      width: 100%;
+    }
+      .head{
+        margin-top:30px ;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+      }
+      .name{
+        color: #87A82E;
+        font-weight: 800;
+        text-transform: uppercase;
+        font-size: 15px;
+        transform: (20, 20);
+        letter-spacing:2px;
+      }
+      .ghalad{
+        color: white;
+        font-weight: 200;
+      }
+      .hidden{
+        background: none;
+        border: none;
+        color: white;
+        font-size: 30px;
+      }
+      .fa-light{
+        color: white;
+      }
+      .forex{
+        text-transform: capitalize;
+        font-size: 25px;
+        color: white;
+      }
+      
+      .friday{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        background: #727593;
+        margin-top: 30px;
+        width: 90%;
+        height: 30px;
+        border-radius:30px ;
+      }
+        .percent{
+          display:flex;
+          flex-direction: row;
+          justify-content: space-between;
+          color: white;
+        
+        }
+      .mytext{
+        background: white;
+        width: 100px;
+        border-radius: 25px;
+        text-transform: uppercase;
+        color:#727593;
+        font-size: 15px;
+        margin-left: 5px;
+        animation: lemme;
+animation-duration: 2s;
+
+      }
+      .black{
+        margin-right: 5px;
+        font-size: 12px;
+      }
+    .text{
+      color: white;
+      font-size: 15px;
+    }
+    .for{
+      display: flex;
+      flex-direction: rows;
+      justify-content: space-around; 
+      align-items: center;
+      background: #1E37D9;
+      height: 50px;
+      width: 50%;
+      border-radius: 30px;
+      animation-name: box;
+      animation-duration: 3s;
+    }
+    .circle{
+      background: white;
+      width: 25%;
+      height : 40px;
+      border-radius: 80%;
+      animation-name: myMove;
+      animation-duration: 3s;
+      
+    }
+    .try{
+      margin-left: 10px;
+      font-size: 15px;
+      color: white;
+      text-transform: capitalize;
+      animation: myMove;
+      animation-delay: 7s;
+    }
+    .dot{
+      color:#1E37D9;
+      text-align: center;
+      font-size: 12px;
+    }
+    .coin{
+      display: flex;
+      flex-direction: row; 
+      justify-content: center;
+      align-items: center;
+      
+    }
+    .btc{
+      margin-top: 20px;
+    }
+    .digit{
+      display:flex;
+      align-items: center;
+      justify-content: center;
+      color: blue;
+      text-align: center;
+      height: 70px;
+      background:#35384A;
+      width: 70px;
+      border-radius: 50%;
+      margin: 20px;
+    }
+    .currency{
+      color: white;
+      font-weight: 800;
+    }
+    .coin-text{
+      text-transform: capitalize;
+      color: grey;
+      font-weight: 100;
+      font-size: 12px;
+    }
+    .why{
+      font-weight: 200;
+    }
+    .loren{
+      color: grey;
+      font-size: 13px;
+    }
+    .learn{
+      margin-top: 20px;
+      background: #3643D2;
+      color: white;
+      border: none;
+      font-size: 20px;
+      font-weight: 400;
+      border-radius: 25px;
+      padding: 10px 30px;
+    }
+    .earn{
+      text-align: center;
+    }
+    .much{
+      text-transform: capitalize;
+      color: white;
+    }
+    .inp{
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+    }
+    .data{
+      background:white;
+      height: 70vh;
+      width: 95%;
+      border-radius: 25px;
+    }
+    .hash{
+      margin: 20px;
+      width: 80%;
+      border: none;
+      bottom: 30px;
+      border-bottom: 1px solid #B8BACE;
+    }
+    input::placeholder{
+      font-size: 20px;
+      padding-bottom:20px;
+      color:#4F516F;
+    }
+    .convert{
+      margin: 25px;
+      width: 80%;
+      font-size: 20px;
+      border-radius: 15px;
+      height: 30px;
+      background: #B4B5BF;
+    } 
+    .lean{
+      margin: 20px;
+      background: #3643D2;
+      color: white;
+      border: none;
+      font-size: 20px;
+      font-weight: 400;
+      border-radius: 25px;
+      padding: 10px 30px;
+    }
+    .estimate{
+      margin: 25px;
+      text-transform: uppercase;
+      color:#3643D2;
+    }
+    .numb{
+      margin: 25px;
+      font-weight: 800;
+      font-size: 20px;
+    }
+    .number{
+      color: #3643D2;
+    }
+    .revenue{
+      margin: 25px;
+      color: grey;
+      font-size: 15px;
+    }
+    .gap{
+      margin-top: -20vh;
+      height: 30vh;
+      background: #D5D6E3;
+      z-index: -1;
+    }
+    .secure{
+      display: flex;
+      flex-direction: column;
+      margin-top: -8vh;
+      align-items: center;
+      background:#D5D6E3 ;
+      height: 220vh;
+    }
+    .market{
+      font-size: 25px;
+      font-weight: 600;
+      text-align: center;
+    }
+    .bita.active{
+    background: blue;
+    color: white;
+    
+    }
+    .bita{
+      margin-top : 40px;
+      display: flex;
+      flex-direction: column;
+      justify-items: center;
+      align-items: center;
+      height: 60vh;
+      background: white;
+      border-radius:20px;
+      width: 95%;
+    }
+    
+    .btc-img{
+      margin-top: 40px;
+    }
+    .digital{
+      text-align: center;
+    }
+    .start{
+      margin-top: 20px;
+      background: #1726AA;
+      border-radius: 25px;
+      padding: 20px 50px;
+      border: none;
+      font-size: 18px;
+      color: white;
+    }
+    .mine{
+      display:none ;
+    }
+    .mine.active{
+      display: block;
+    }
+    .mining.active{
+      display: none;
+    }
+    .btc-crypt{
+      color: grey;
+      font-weight: 100;
+      font-size: 20px;
+    }
+   .myAnime{
+     position: relative;
+        opacity: -1;
+        transform:scale(0.5, 0.5);
+        transition: 4s all ease;
+      }
+   .myAnime.Anime {
+        opacity: 1;
+        transform: scale(1, 1);
+      }
+      @keyframes myMove{
+        0%{
+          opacity: -1;
+          transform: translateX(-100px);
+        }
+        100%{
+          opacity: 1;
+          transform: translateX(0);
+        }
+      }
+      @keyframes box{
+        0%{
+          transform: translateY(-250px);
+          opacity: -1;
+        }
+        100%{
+          transform:translateY(0);
+          opacity: 1;
+        }
+        
+      }
+    
+    @keyframes lemme {
+      0% {
+        transform: scale(0, 0);
+      }
+    
+      100% {
+        transform: scale(1, 1);
+      }
+    
+    }
+    .fx{
+      text-align: center;
+      color: white;
+      font-weight: 300;
+      font-size: 25px;
+      text-transform: capitalize;
+    }
+    .more{
+      background: blue;
+      margin: 20px;
+      padding:10px 30px;
+      border-radius: 15px;
+      font-size: 15px;
+      color: white;
+      border: none;
+    }
+    .myChart{
+      width: 90%;
+      margin: 20px;
+    }
+    .space{
+      background-image: url("sept007.png");
+  height:40vh ;
+  border-radius: 25px;
+    }
+    .stat{
+      margin: 20px;
+      color: white;
+      
+    }
+    .starty{
+      color: white;
+      margin: 20px;
+      font-size: 15px;
+    }
+    .message{
+      width: 90%;
+      margin: 20px;
+      border: none;
+      background: none;
+      height: 1vh;
+      border-bottom: 1px solid grey;
+    }
+    .subscribe{
+      background:white ;
+      border: none;
+      padding: 10px 30px;
+      border-radius: 15px;
+      text-align: content;
+      color:#080E48;
+      margin-left: 17vh;
+      font-size: 15px
+      
+    }
+    .resource{
+      text-align: center;
+      color: white;
+    }
+    .ghald{
+      height: 13vh;
+      display: flex;
+      justify-content: center;
+      align-items: center
+    }
+    .nav {
+      height:10vh;
+      width: 100%;
+      background: white;
+      z-index: -1;
+    }
+    
+    .link {
+      display: flex;
+      flex-direction: column;
+      justify-items: center;
+      
+    }
+    li{
+      list-style: none;
+      line-height: 50px;
+      text-align: center;
+      margin-left: -10px;
+      text-transform: capitalize;
+    }
+    a{
+      text-decoration: none;
+      color: white;
+     }
+     
+    .dhium{
+      color: #717BE6;
+      font-size: 20px;
+      font-weight: 800;
+    }
+    .card{
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+    }
+    .accept{
+      color:white;
+      text-align: center;
+      font-weight: 300;
+      font-size: 15px;
+    }
+    .right{
+      border: 2px solid white;
+    }
